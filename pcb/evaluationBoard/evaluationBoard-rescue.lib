@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 3k-Resistor_JLC
+#
+DEF 3k-Resistor_JLC R 0 30 Y Y 1 F N
+F0 "R" 200 200 50 H V L CNN
+F1 "3k-Resistor_JLC" 200 100 50 H V L CNN
+F2 "RESC1608X55N" 600 50 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1811081711_UNI-ROYAL-Uniroyal-Elec-0603WAF3001T5E_C4211.pdf" 600 -50 50 H I L CNN
+F4 "3k +/-1% 0.1W +/-100ppm/ 0603 Chip Resistor - Surface Mount RoHS" 600 -150 50 H I L CNN "Description"
+F5 "0.55" 600 -250 50 H I L CNN "Height"
+F6 "UNI-ROYAL(Uniroyal Elec)" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0603WAF3001T5E" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 350 -40 150 40 1 1 10 N
+X ~ 1 100 0 50 R 50 50 1 1 P
+X ~ 2 400 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
