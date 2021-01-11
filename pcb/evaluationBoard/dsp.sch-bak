@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -90,26 +90,6 @@ F 5 "C96123" H 7100 5900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Misc_JLC:TLV320AIC3254IRHBT IC?
-U 1 1 6000A3F0
-P 5500 3800
-F 0 "IC?" H 6300 4881 50  0000 C CNN
-F 1 "TLV320AIC3254IRHBT" H 6300 4790 50  0000 C CNN
-F 2 "QFN50P500X500X100-33N-D" H 6950 4500 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/slas549d/slas549d.pdf" H 6950 4400 50  0001 L CNN
-F 4 "TLV320AIC3254IRHBT, Audio Codec Stereo-channel 32bit- 192ksps Serial-I2C, Serial-I2S, Serial-SPI 32-Pin QFN" H 6950 4850 50  0001 L CNN "Description"
-F 5 "1" V 6250 4600 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 7000 3450 50  0001 L CNN "Manufacturer_Name"
-F 7 "TLV320AIC3254IRHBT" H 7000 3550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-V320AIC3254IRHBT" H 5600 3600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV320AIC3254IRHBT/?qs=XGzIaZb%2FFYKwaIZKmMnGjg%3D%3D" H 5600 3400 50  0001 L CNN "Mouser Price/Stock"
-F 10 "TLV320AIC3254IRHBT" H 6950 3450 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/tlv320aic3254irhbt/texas-instruments" H 7450 3000 50  0001 L CNN "Arrow Price/Stock"
-F 12 "C182339" H 5500 4200 50  0001 C CNN "LCSC"
-	1    5500 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Capacitor_JLC:1u C?
 U 1 1 6000BAC7
 P 7550 5900
@@ -122,24 +102,6 @@ F 5 "C52923" H 7550 5900 50  0001 C CNN "LCSC"
 	1    7550 5900
 	1    0    0    -1  
 $EndComp
-Text HLabel 5500 3400 0    50   Input ~ 0
-MCLK
-Text HLabel 5500 3500 0    50   Input ~ 0
-BCLK
-Text HLabel 5500 3600 0    50   Input ~ 0
-WCLK
-Text HLabel 5500 3700 0    50   Input ~ 0
-DIN
-Text HLabel 5500 3800 0    50   Input ~ 0
-DOUT
-Text HLabel 5500 4000 0    50   Input ~ 0
-SCL
-Text HLabel 5500 4100 0    50   Input ~ 0
-SDA
-Text HLabel 7100 3600 2    50   Input ~ 0
-MICBIAS
-Text HLabel 4150 4000 0    50   Input ~ 0
-MICBIAS
 $Comp
 L Resistor_JLC:1k R?
 U 1 1 6000DC13
