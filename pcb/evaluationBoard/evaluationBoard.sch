@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
+Sheet 1 7
 Title "Evaluation Board"
 Date "2021-01-11"
 Rev "A"
@@ -77,5 +77,17 @@ S 4150 7050 550  500
 U 6059D6D4
 F0 "sensors" 50
 F1 "sensors.sch" 50
+$EndSheet
+$Sheet
+S 9750 8150 1650 700 
+U 60285617
+F0 "Sheet60285616" 50
+F1 "usb.sch" 50
+$EndSheet
+$Sheet
+S 6950 9050 2550 1150
+U 6028A11B
+F0 "Sheet6028A11A" 50
+F1 "wifi.sch" 50
 $EndSheet
 $EndSCHEMATC
